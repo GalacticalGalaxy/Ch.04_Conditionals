@@ -12,7 +12,7 @@
 
  # 2. Make the following program work. (3 mistakes)
 #
-# x = input("Enter a number: ")
+# x = int(input("Enter a number: "))
 # if x == 3:
 #     print("You entered 3")
 
@@ -28,10 +28,10 @@
 
   # 4. Make the following program work. (4 mistakes)
 
-# x = input("Name one of the top 3 greatest Jedi.")
-# if x == "Yoda" or "Luke Skywalker" or "Obi-Wan Kenobi":
-#     print("That is correct!")
-#
+x = input("Name one of the top 3 greatest Jedi.")
+if x.lower() == "yoda" or x.lower() == "luke skywalker" or x.lower() == "obi-wan kenobi":
+    print("That is correct!")
+
 
 
  # 5. Make the following program work whether they enter a, A, Jedi Master or jedi master
@@ -45,7 +45,7 @@
 #
 # user_input = input("Choose a character?")
 #
-# if user_input == "A":
+# if user_input.upper() == "A" or user_input.upper() == "JEDI MASTER":
 #     sensitivity = 1000
 # elif user_input == "B":
 #     sensitivity = 900

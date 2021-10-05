@@ -20,18 +20,19 @@ Out:  Test 1: Odd
 '''
 
 nu = float (input("What is the number?"))
-oe = nu % 2
 
-if oe == 1:
-    print("Test one odd")
-else:
+if nu % 2==0:
     print("Test one even")
+else:
+    print("Test one odd")
+
 if nu > 0:
     print("Your # is positive")
 elif nu < 0:
     print("Your # is negitive")
 else:
     print("your # is 0")
+
 if nu >= -100 and nu <=100:
     print("Your # is inclusive")
 else:

@@ -20,7 +20,7 @@ print("B. Give up.")
 print("C. Code.")
 
 QB = str(input("Ans- "))
-if QB == "A" or QA == "C" or QB == "a" or QB == "c":
+if QB.upper() == "A" or QB.upper() == "C":
     print("Your Right!")
     S += 1
 else:
